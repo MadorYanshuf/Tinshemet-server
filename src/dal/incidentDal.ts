@@ -13,3 +13,5 @@ export const getAllNewIncidents = () => {}
 export const markAllIncidentsAsRead = () => {}
 
 export const addIncident = (incident: Incident) => {}
+
+export const deleteIncident = async (incidentId: number) => {}
