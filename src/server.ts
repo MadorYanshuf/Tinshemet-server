@@ -13,8 +13,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Get!!!');
 });
 
-// app.use('/incidents', incidentsRouter);
-app.use('/incidents', incidentRouter);
+app.use('/incidents', incidentsRouter);
 
 app.listen(app.get('PORT'), () => {
   console.log(
