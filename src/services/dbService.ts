@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
-const server = "20.93.141.29";
-const database = "Incidents";
+const server: string = "20.93.141.29";
+const database: string = "Incidents";
 
 class Database {
   constructor() {

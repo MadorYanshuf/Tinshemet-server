@@ -8,7 +8,10 @@ const incident = new mongoose.Schema({
   eventType: String,
   tag: String,
   description: String,
-  location: Location,
+  location: {
+    northing: Number,
+    easting: Number
+  },
   area: String,
   victimAmount: Number,
   wasRead: {
