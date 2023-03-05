@@ -1,4 +1,4 @@
-import express, { Request, Response, Router } from 'express';
+import express, { Request, response, Response, Router } from 'express';
 
 import { getAllIncidents } from '../dal/incidentDal';
 
@@ -8,8 +8,8 @@ incidentsRouter.get('/', async (req: Request, res: Response) => {
     try {
         const allIncidents = await getAllIncidents();
         res.send(allIncidents);
-    } catch (error: any) {
-        console.log(error.message);
-        res.send("Error => " + error.message);
+    } catch (error) {
+        console.log(res.status + ": " + res.statusMessage);
+        res.send(res.status);
     }
 });
