@@ -9,7 +9,7 @@ incidentsRouter.get('/', async (req: Request, res: Response) => {
         const allIncidents = await getAllIncidents();
         res.send(allIncidents);
     } catch (error) {
-        console.log(res.status + ": " + res.statusMessage);
-        res.send(res.status);
+        console.log(error);
+        res.status(400).send('Status: Bad Request');
     }
 });
