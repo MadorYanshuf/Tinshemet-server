@@ -1,18 +1,20 @@
-const mongoose = require("mongoose");
-
-const { Schema, model } = mongoose;
+import mongoose from "mongoose";
 
 const incident = new mongoose.Schema({
-    id: Number,
-    title: String,
-    time: Date,
-    weaponTypes: [String],
-    eventType: String,
-    tag: String,
-    description: String,
-    location: Location,
-    area: String,
-    victimAmount: Number,
-  });
+  id: Number,
+  title: String,
+  time: Date,
+  weaponTypes: [String],
+  eventType: String,
+  tag: String,
+  description: String,
+  location: Location,
+  area: String,
+  victimAmount: Number,
+  wasRead: {
+    type: Boolean,
+    default: false,
+  },
+});
 
-module.exports = mongoose.model("Incident", incident);
+export const incidents = mongoose.model("Incident", incident);

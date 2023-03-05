@@ -1,8 +1,7 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
-
-const server = "20.93.141.29"; // REPLACE WITH YOUR DB SERVER
-const database = "Incidents"; // REPLACE WITH YOUR DB NAME
+const server = "20.93.141.29";
+const database = "Incidents";
 
 class Database {
   constructor() {
@@ -10,14 +9,12 @@ class Database {
   }
 
   connect() {
-    mongoose
-      .connect(`mongodb://${server}/${database}`)
-      .then(() => {
-        console.log("Database connection successful");
-      })
-      .catch((err) => {
-        console.error("Database connection error");
-      });
+    try {
+      mongoose.connect(`mongodb://${server}/${database}`);
+      console.log("Database connection successful");
+    } catch (err) {
+      console.log("Database connection error");
+    }
   }
 }
 
