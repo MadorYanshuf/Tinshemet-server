@@ -23,7 +23,7 @@ export interface Location {
 }
 
 
-export const getAllIncidents = () => { throw hasUncaughtExceptionCaptureCallback;}
+export const getAllIncidents = () => { return [{a:"ggg", b:"hello"}, {a:"ggg", b:"hello"}]};
 
 export const getAllNewIncidents = () => { }
 
