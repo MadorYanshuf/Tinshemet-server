@@ -2,6 +2,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import express, { Express, Request, Response } from 'express';
 import { incidentsRouter } from './routes/incidents';
+import { connectToMongo } from './services/dbService';
 
 export const app: Express = express();
 
@@ -20,3 +21,5 @@ app.listen(app.get('PORT'), () => {
     `⚡️[server]: Server is running at http://localhost:${app.get('PORT')}`
   );
 });
+
+connectToMongo();
