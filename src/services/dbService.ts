@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 
 const USERNAME: string = "tinshemetdev";
 const PASSWORD: string = "Tinshemet123!@";
-const NAME: string = "incidents";
-const URL = `mongodb://10.252.30.132`;
+const NAME: string = "madorYanshufDev";
+const URL: string = `mongodb://10.252.30.132`;
 
 export const connectToMongo = async () => {
   try {
