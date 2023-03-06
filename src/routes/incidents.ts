@@ -28,3 +28,5 @@ incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
         res.status(404).send('Incident not found');
     }
 });
+
+export const server = incidentsRouter;

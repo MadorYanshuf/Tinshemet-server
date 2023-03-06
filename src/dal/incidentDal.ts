@@ -2,6 +2,8 @@
 ** Here you will write the dal for the incidents!
 */
 
+import { hasUncaughtExceptionCaptureCallback } from "process";
+
 export interface Incident {
     id?: number;
     title: string;
@@ -21,7 +23,7 @@ export interface Location {
 }
 
 
-export const getAllIncidents = () => { }
+export const getAllIncidents = () => { throw hasUncaughtExceptionCaptureCallback;}
 
 export const getAllNewIncidents = () => { }
 
