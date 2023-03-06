@@ -4,7 +4,7 @@ const incident = new mongoose.Schema({
   id: Number,
   title: String,
   time: Date,
-  weaponTypes: [String],
+  weaponTypes: Array<string>,
   eventType: String,
   tag: String,
   description: String,
@@ -14,10 +14,6 @@ const incident = new mongoose.Schema({
   },
   area: String,
   victimAmount: Number,
-  wasRead: {
-    type: Boolean,
-    default: false,
-  },
 });
 
-export const incidents = mongoose.model("Incident", incident);
+export const incidents = mongoose.model("incident", incident);
