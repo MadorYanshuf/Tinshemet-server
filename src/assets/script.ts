@@ -7,14 +7,13 @@ const tags: string[] = ['אג"מ', 'מודיעין', 'תקשוב'];
 const MAX_VICTIMS_AMOUNT = 20;
 const AYOSH_MAX_COORDS = 32;
 const AYOSH_MIN_COORDS = 30;
+const INCIDENTS_AMOUNT = 100;
 const getRandomVictimAmount = () => Math.floor(Math.random() * MAX_VICTIMS_AMOUNT);
 
-const getRandomLocation = () => {
-    return {
-        northing : (Math.random() * (AYOSH_MAX_COORDS - AYOSH_MIN_COORDS + 1) + AYOSH_MIN_COORDS),
+const getRandomLocation = () => ({
+    northing : (Math.random() * (AYOSH_MAX_COORDS - AYOSH_MIN_COORDS + 1) + AYOSH_MIN_COORDS),
         easting: (Math.random() * (AYOSH_MAX_COORDS - AYOSH_MIN_COORDS + 1) + AYOSH_MIN_COORDS)
-    }
-};
+});
 
 const getRandomIndex = (arraySize:number) =>  Math.floor(Math.random() * arraySize);
 
@@ -48,8 +47,6 @@ const generateIncident = (index:number) => {
 
 const incidentsArray : Incident[] = [];
 
-for(let index = 0; index < 100; index++){
-    incidentsArray.push(generateIncident(index));
+for(let index = 0; index < INCIDENTS_AMOUNT; index++){
+    incidentsArray.push(generateIncident(index + 1));
 }
-
-console.log(incidentsArray);
