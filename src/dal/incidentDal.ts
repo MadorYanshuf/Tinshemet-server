@@ -8,7 +8,7 @@ interface Incident {
     //The incident type
 }
 
-export const getAllIncidents = () => {};
+export const getAllIncidents = async () => {};
 
 export const getAllNewIncidents = () => {}
 
