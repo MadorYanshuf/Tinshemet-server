@@ -21,7 +21,6 @@ incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
         res.status(400).send('Invalid ID');
         return;
     }
-    
     try {
         await deleteIncident(id);
         res.status(200).send('Incident successfuly deleted');

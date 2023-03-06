@@ -4,7 +4,7 @@
 
 export interface Incident {
     id?: number;
-    title: string; 
+    title: string;
     time?: Date; //change to timestamp?
     weaponTypes: string[];
     eventType: string;
@@ -21,12 +21,12 @@ export interface Location {
 }
 
 
-export const getAllIncidents = () => {}
+export const getAllIncidents = () => { }
 
-export const getAllNewIncidents = () => {}
+export const getAllNewIncidents = () => { }
 
-export const markAllIncidentsAsRead = () => {}
+export const markAllIncidentsAsRead = () => { }
 
-export const addIncident = (incident: Incident) => {}
+export const addIncident = (incident: Incident) => { }
 
-export const deleteIncident = async (incidentId: number) => {}
+export const deleteIncident = async (incidentId: number) => { }
