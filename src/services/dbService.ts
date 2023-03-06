@@ -5,11 +5,9 @@ const PASSWORD: string = "Tinshemet123!@";
 const NAME: string = "incidents";
 const URL = `mongodb://10.252.30.132`;
 
-export let mongooseClient: typeof mongoose;
-
 export const connectToMongo = async () => {
   try {
-    mongooseClient = await mongoose.connect(URL, {
+    await mongoose.connect(URL, {
       user: USERNAME,
       pass: PASSWORD,
       dbName: NAME,
