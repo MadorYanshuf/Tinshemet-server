@@ -2,9 +2,24 @@
 ** Here you will write the dal for the incidents!
 */
 
-interface Incident {
-    //The incident type
+export interface Incident {
+    id?: number;
+    title: string; 
+    time?: Date; //change to timestamp?
+    weaponTypes: string[];
+    eventType: string;
+    tag: string;
+    description?: string;
+    location: Location;
+    area?: string;
+    victimAmount?: number;
 }
+
+export interface Location {
+    northing: number;
+    easting: number;
+}
+
 
 export const getAllIncidents = () => {}
 
