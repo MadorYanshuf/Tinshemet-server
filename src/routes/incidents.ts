@@ -1,8 +1,8 @@
 import express, { Request, Response, Router } from 'express';
-import { deleteIncident } from '../dal/incidentDal';
-import { getAllIncidents } from '../dal/incidentDal';
+import { addIncident, deleteIncident, getAllIncidents } from '../dal/incidentDal';
+import { Incident } from '../dal/incidentDal';
 
-class inc{
+class inc {
     incidentsRouter: Router = express.Router();
 
     createRouter() {
@@ -23,17 +23,12 @@ class inc{
             res.send(allIncidents);
         } catch (error) {
             console.log(error);
-            res.status(400).send('Status: Bad Request');
+            res.status(400).send('Bad Request');
         }
     };
 
     private async deleteIncident(req: Request, res: Response) {
-        const id : number = parseInt(req.params.id);
-    
-        if (isNaN(id)) {
-            res.status(400).send('Invalid ID');
-            return;
-        }
+        const id: string = req.params.id;
         try {
             await deleteIncident(id);
             res.status(200).send('Incident successfuly deleted');

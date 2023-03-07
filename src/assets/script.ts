@@ -34,9 +34,8 @@ const getRandomWeaponTypes = () => {
     return incidentWeaponTypes;
 }
 
-const generateIncident = (index: number) => {
+const generateIncident = () => {
     return {
-        id: index,
         title: titles[getRandomIndex(titles.length)],
         weaponTypes: getRandomWeaponTypes(),
         eventType: eventTypes[getRandomIndex(eventTypes.length)],
@@ -49,5 +48,7 @@ const generateIncident = (index: number) => {
 const incidentsArray: Incident[] = [];
 
 for (let index = 0; index < INCIDENTS_AMOUNT; index++) {
-    incidentsArray.push(generateIncident(index + 1));
+    incidentsArray.push(generateIncident());
 }
+
+console.log(incidentsArray);

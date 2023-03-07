@@ -1,11 +1,12 @@
-/*
-** Here you will write the dal for the incidents!
-*/
+import { Db } from "mongodb";
+import mongoose, { Schema } from "mongoose";
+import { incidents } from "../model/incident";
+const db = require("../services/dbService");
 
 export interface Incident {
     id?: number;
     title: string;
-    time?: Date; //change to timestamp?
+    time?: Date;
     weaponTypes: string[];
     eventType: string;
     tag: string;
@@ -20,13 +21,8 @@ export interface Location {
     easting: number;
 }
 
+export const getAllIncidents = async () => incidents.find();
 
-export const getAllIncidents = () => { }
+export const addIncident = (incident: Incident) => incidents.collection.insertOne(incident);
 
-export const getAllNewIncidents = () => { }
-
-export const markAllIncidentsAsRead = () => { }
-
-export const addIncident = (incident: Incident) => { }
-
-export const deleteIncident = async (incidentId: number) => { }
+export const deleteIncident = async (incidentId: string) => await incidents.deleteOne({ _id: incidentId });
