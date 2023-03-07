@@ -16,12 +16,8 @@ incidentsRouter.get('/', async (req: Request, res: Response) => {
 });
 
 incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
-    const id: number = parseInt(req.params.id);
+    const id: string = req.params.id;
 
-    if (isNaN(id)) {
-        res.status(400).send('Invalid ID');
-        return;
-    }
     try {
         await deleteIncident(id);
         res.status(200).send('Incident successfuly deleted');
