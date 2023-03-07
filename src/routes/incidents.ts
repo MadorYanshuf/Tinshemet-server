@@ -1,7 +1,6 @@
 import express, { Request, Response, Router } from 'express';
 import { addIncident, deleteIncident } from '../dal/incidentDal';
 import { getAllIncidents } from '../dal/incidentDal';
-import { addIncident } from '../dal/incidentDal';
 import { Incident } from '../dal/incidentDal';
 
 export const incidentsRouter: Router = express.Router();

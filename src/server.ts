@@ -21,5 +21,4 @@ app.listen(app.get('PORT'), () => {
     `⚡️[server]: Server is running at http://localhost:${app.get('PORT')}`
   );
 });
-
 connectToMongo();
