@@ -27,18 +27,13 @@ class inc {
             res.send(allIncidents);
         } catch (error) {
             console.log(error);
-            res.status(400).send('Status: Bad Request');
+            res.status(400).send('Bad Request');
         }
     };
 
     private async deleteIncident(req: Request, res: Response) {
         logData(this, req.params);
-        const id: number = parseInt(req.params.id);
-
-        if (isNaN(id)) {
-            res.status(400).send('Invalid ID');
-            return;
-        }
+        const id: string = req.params.id;
 
         try {
             await deleteIncident(id);

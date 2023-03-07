@@ -1,902 +1,802 @@
 [
     {
-        id: 1,
         title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים'],
-        eventType: 'פרש תורכי',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ג',
         tag: 'תקשוב',
-        location: { northing: 32.015698362976906, easting: 31.631798344141263 },
-        victimAmount: 8
-    },
-    {
-        id: 2,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 32.70074597387591, easting: 32.93163811954448 },
-        victimAmount: 6
-    },
-    {
-        id: 3,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'סכין', 'נשק חם'],
-        eventType: 'פרש תורכי',
-        tag: 'מודיעין',
-        location: { northing: 30.051862768347412, easting: 31.258388365548125 },
-        victimAmount: 12
-    },
-    {
-        id: 4,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 30.946349700567673, easting: 32.50846002102747 },
-        victimAmount: 1
-    },
-    {
-        id: 5,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 31.064846415203057, easting: 31.24835554717244 },
-        victimAmount: 16
-    },
-    {
-        id: 6,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 32.13308047258984, easting: 30.14609444073103 },
+        location: { northing: 30.63959507924752, easting: 32.29591835804006 },
         victimAmount: 18
     },
     {
-        id: 7,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 30.329732324444205, easting: 32.60866927656325 },
+        victimAmount: 6
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'אג"מ',
+        location: { northing: 31.08617438367023, easting: 31.778699724542598 },
+        victimAmount: 6
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'נשק חם'],
         eventType: 'אביר לילה א',
         tag: 'אג"מ',
-        location: { northing: 32.55753909767732, easting: 30.637567445557245 },
-        victimAmount: 2
-    },
-    {
-        id: 8,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'בקתב', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'מודיעין',
-        location: { northing: 32.73864171368187, easting: 30.60243047266151 },
-        victimAmount: 1
-    },
-    {
-        id: 9,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.029478068576445, easting: 32.95097803791915 },
-        victimAmount: 1
-    },
-    {
-        id: 10,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['בקתב'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 31.80502890095663, easting: 31.543286095892586 },
-        victimAmount: 10
-    },
-    {
-        id: 11,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'סכין'],
-        eventType: 'פרש תורכי',
-        tag: 'תקשוב',
-        location: { northing: 32.45291319753287, easting: 32.03653177080978 },
-        victimAmount: 0
-    },
-    {
-        id: 12,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'בקתב'],
-        eventType: 'אביר לילה ב',
-        tag: 'מודיעין',
-        location: { northing: 31.550991988931166, easting: 31.507103787754065 },
+        location: { northing: 31.981064117191334, easting: 32.024204888333855 },
         victimAmount: 17
     },
     {
-        id: 13,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.60450442447022, easting: 32.45339152669484 },
-        victimAmount: 3
-    },
-    {
-        id: 14,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'סכין', 'נשק חם'],
-        eventType: 'פרש תורכי',
-        tag: 'מודיעין',
-        location: { northing: 32.951623457188646, easting: 31.98498879354053 },
-        victimAmount: 9
-    },
-    {
-        id: 15,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'בקתב'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 31.68160362890261, easting: 32.2120691105976 },
-        victimAmount: 5
-    },
-    {
-        id: 16,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'בקתב', 'סכין'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 31.085113459874755, easting: 30.836295930304978 },
-        victimAmount: 19
-    },
-    {
-        id: 17,
         title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'נשק חם'],
-        eventType: 'אביר לילה א',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
         tag: 'מודיעין',
-        location: { northing: 30.176688939319675, easting: 30.26533856880525 },
+        location: { northing: 30.17926958959441, easting: 32.437034125430976 },
+        victimAmount: 8
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 32.223906699660105, easting: 30.99549495837021 },
+        victimAmount: 16
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['סכין', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 32.17518806120512, easting: 31.777396869623402 },
         victimAmount: 13
     },
     {
-        id: 18,
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 31.76669078070382, easting: 32.39967124995418 },
+        victimAmount: 2
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 31.41033849414922, easting: 32.73881304475419 },
+        victimAmount: 13
+    },
+    {
         title: 'stabbing terror attack in apple cross',
         weaponTypes: ['רכב', 'בקתב', 'נשק חם'],
         eventType: 'אביר לילה א',
         tag: 'מודיעין',
-        location: { northing: 32.593123552318424, easting: 30.088064990161254 },
-        victimAmount: 2
+        location: { northing: 32.24343092591657, easting: 31.785166847509952 },
+        victimAmount: 14
     },
     {
-        id: 19,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'תקשוב',
-        location: { northing: 31.89385369334175, easting: 30.781684451233343 },
-        victimAmount: 7
-    },
-    {
-        id: 20,
         title: 'molotov strike on school bus',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 32.78784319394374, easting: 31.566817712633135 },
-        victimAmount: 0
-    },
-    {
-        id: 21,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'סכין'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 30.449784847319343, easting: 32.819423996896 },
-        victimAmount: 13
-    },
-    {
-        id: 22,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['בקתב'],
-        eventType: 'פרש תורכי',
-        tag: 'תקשוב',
-        location: { northing: 32.985628052788975, easting: 31.49829423944537 },
-        victimAmount: 3
-    },
-    {
-        id: 23,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 30.11660018098535, easting: 32.86300380775685 },
-        victimAmount: 3
-    },
-    {
-        id: 24,
-        title: 'stabbing terror attack in apple cross',
         weaponTypes: ['אבנים', 'סכין', 'נשק חם'],
-        eventType: 'פרש תורכי',
-        tag: 'מודיעין',
-        location: { northing: 31.36529309319461, easting: 31.31512979011288 },
-        victimAmount: 4
-    },
-    {
-        id: 25,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'תקשוב',
-        location: { northing: 30.943151590070553, easting: 30.772581304347472 },
-        victimAmount: 18
-    },
-    {
-        id: 26,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 32.90375293167642, easting: 31.22554182564518 },
-        victimAmount: 9
-    },
-    {
-        id: 27,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
-        eventType: 'ירי תמ"ס',
-        tag: 'תקשוב',
-        location: { northing: 31.577203568062128, easting: 30.940925860911797 },
-        victimAmount: 17
-    },
-    {
-        id: 28,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['סכין', 'נשק חם'],
         eventType: 'אביר לילה ג',
         tag: 'מודיעין',
-        location: { northing: 30.725984701406873, easting: 30.128705830350253 },
-        victimAmount: 10
-    },
-    {
-        id: 29,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 30.818571260345266, easting: 30.678101758324274 },
-        victimAmount: 10
-    },
-    {
-        id: 30,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'מודיעין',
-        location: { northing: 31.07144552249514, easting: 30.420114004188314 },
-        victimAmount: 3
-    },
-    {
-        id: 31,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['בקתב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'תקשוב',
-        location: { northing: 31.962887236933472, easting: 30.142616080519467 },
+        location: { northing: 30.151472747255998, easting: 31.07910739212385 },
         victimAmount: 15
     },
     {
-        id: 32,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'בקתב'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 31.38069462047911, easting: 31.20788072055426 },
-        victimAmount: 12
-    },
-    {
-        id: 33,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 32.1355261515362, easting: 32.615621495068254 },
-        victimAmount: 8
-    },
-    {
-        id: 34,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה ג',
-        tag: 'מודיעין',
-        location: { northing: 32.11635335110552, easting: 32.15396138540541 },
-        victimAmount: 10
-    },
-    {
-        id: 35,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.47866483343989, easting: 32.860641344903094 },
-        victimAmount: 0
-    },
-    {
-        id: 36,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 30.80994185102473, easting: 32.188073404802324 },
-        victimAmount: 18
-    },
-    {
-        id: 37,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'מודיעין',
-        location: { northing: 31.34622356193669, easting: 30.74382262249142 },
-        victimAmount: 4
-    },
-    {
-        id: 38,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'מודיעין',
-        location: { northing: 30.495467221646436, easting: 31.555847236003732 },
-        victimAmount: 13
-    },
-    {
-        id: 39,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['בקתב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 30.383193496972208, easting: 31.058054966167973 },
-        victimAmount: 11
-    },
-    {
-        id: 40,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 30.499412042075868, easting: 31.92741077422039 },
-        victimAmount: 2
-    },
-    {
-        id: 41,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 32.83531695132477, easting: 31.43342893449725 },
-        victimAmount: 13
-    },
-    {
-        id: 42,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'בקתב'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 30.79676190522912, easting: 30.759422164284132 },
-        victimAmount: 5
-    },
-    {
-        id: 43,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'בקתב'],
-        eventType: 'אביר לילה א',
-        tag: 'תקשוב',
-        location: { northing: 32.72300805817388, easting: 30.90638431921844 },
-        victimAmount: 10
-    },
-    {
-        id: 44,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'פרש תורכי',
-        tag: 'אג"מ',
-        location: { northing: 30.33055230110987, easting: 31.030103570433653 },
-        victimAmount: 4
-    },
-    {
-        id: 45,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'אביר לילה א',
-        tag: 'תקשוב',
-        location: { northing: 32.681505297800825, easting: 31.77155851294554 },
-        victimAmount: 1
-    },
-    {
-        id: 46,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.254492980023972, easting: 32.927394351526324 },
-        victimAmount: 6
-    },
-    {
-        id: 47,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים'],
-        eventType: 'פטיש חם',
-        tag: 'תקשוב',
-        location: { northing: 30.806408911225112, easting: 31.227250037025293 },
-        victimAmount: 7
-    },
-    {
-        id: 48,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה א',
-        tag: 'אג"מ',
-        location: { northing: 32.85714327008856, easting: 30.135819828381422 },
-        victimAmount: 15
-    },
-    {
-        id: 49,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'בקתב'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 32.301235822521235, easting: 31.532109806331437 },
-        victimAmount: 6
-    },
-    {
-        id: 50,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 31.144795444487354, easting: 32.09148110303174 },
-        victimAmount: 12
-    },
-    {
-        id: 51,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 32.35261787764932, easting: 32.75451747379198 },
-        victimAmount: 19
-    },
-    {
-        id: 52,
         title: 'molotov strike on school bus',
         weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
         eventType: 'אביר לילה ב',
         tag: 'אג"מ',
-        location: { northing: 30.284009993091445, easting: 31.35417846514289 },
-        victimAmount: 4
+        location: { northing: 32.23544657692353, easting: 32.388480417756305 },
+        victimAmount: 12
     },
     {
-        id: 53,
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['בקתב', 'סכין'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 31.66626018124074, easting: 30.886377361553212 },
+        victimAmount: 13
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 32.27789867079217, easting: 31.484676431882306 },
+        victimAmount: 8
+    },
+    {
         title: 'hit and run in yehuda',
-        weaponTypes: ['רכב'],
-        eventType: 'אביר לילה א',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 31.751831511369165, easting: 32.575743272115865 },
+        victimAmount: 11
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב'],
+        eventType: 'ירי תמ"ס',
         tag: 'תקשוב',
-        location: { northing: 31.298528806156064, easting: 31.598918929289084 },
+        location: { northing: 32.204923033586944, easting: 30.182016238472062 },
+        victimAmount: 8
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'אג"מ',
+        location: { northing: 30.560846374661836, easting: 31.06396199423643 },
+        victimAmount: 19
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'אג"מ',
+        location: { northing: 31.976495552528153, easting: 31.607663537171394 },
+        victimAmount: 18
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 30.626886655850594, easting: 30.08859249951782 },
+        victimAmount: 13
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 30.067665108875694, easting: 31.29641071007073 },
+        victimAmount: 3
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 32.42088208517721, easting: 32.27448554546035 },
+        victimAmount: 13
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 31.87210376813734, easting: 32.10043207474986 },
+        victimAmount: 18
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'בקתב'],
+        eventType: 'פטיש חם',
+        tag: 'אג"מ',
+        location: { northing: 32.11879658294105, easting: 31.48177666882017 },
+        victimAmount: 0
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        eventType: 'אביר לילה א',
+        tag: 'מודיעין',
+        location: { northing: 32.26226558772095, easting: 30.956805144954465 },
+        victimAmount: 14
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['סכין', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 30.941815949612696, easting: 32.50992038347403 },
         victimAmount: 5
     },
     {
-        id: 54,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'אג"מ',
-        location: { northing: 31.912153539749454, easting: 31.963987885108757 },
-        victimAmount: 4
-    },
-    {
-        id: 55,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב'],
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
         eventType: 'פרש תורכי',
         tag: 'אג"מ',
-        location: { northing: 31.592332237384788, easting: 30.436513687118662 },
+        location: { northing: 32.451575030510064, easting: 32.80623703759772 },
+        victimAmount: 17
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'אג"מ',
+        location: { northing: 30.79064294771988, easting: 30.890014985131906 },
+        victimAmount: 14
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['סכין'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 32.52211621602024, easting: 32.94969227827061 },
+        victimAmount: 0
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['סכין', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 31.077186593205376, easting: 32.67135394662332 },
+        victimAmount: 9
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['רכב', 'סכין'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 32.86385234692343, easting: 32.34084018112501 },
+        victimAmount: 3
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 30.599508569874985, easting: 32.01343008324972 },
+        victimAmount: 3
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 32.67298491754645, easting: 31.129041947304653 },
+        victimAmount: 10
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 31.859632476081828, easting: 31.897741356244627 },
+        victimAmount: 8
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['רכב'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 31.86233804029179, easting: 31.10005014328284 },
+        victimAmount: 3
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 30.2105166433661, easting: 32.72552403398366 },
+        victimAmount: 11
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'נשק חם'],
+        eventType: 'אביר לילה א',
+        tag: 'אג"מ',
+        location: { northing: 32.14016696430754, easting: 31.583395026748768 },
         victimAmount: 2
     },
     {
-        id: 56,
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'אג"מ',
+        location: { northing: 31.008413905074192, easting: 31.507525550961127 },
+        victimAmount: 14
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'תקשוב',
+        location: { northing: 30.02714789303392, easting: 31.21426093186639 },
+        victimAmount: 7
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'סכין', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'תקשוב',
+        location: { northing: 31.02933125049691, easting: 32.09045733257184 },
+        victimAmount: 3
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['רכב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'תקשוב',
+        location: { northing: 30.096882138347656, easting: 30.14017291155558 },
+        victimAmount: 13
+    },
+    {
         title: 'hit and run in yehuda',
+        weaponTypes: ['רכב', 'בקתב'],
+        eventType: 'אביר לילה ג',
+        tag: 'תקשוב',
+        location: { northing: 32.593993663425735, easting: 30.025930241112277 },
+        victimAmount: 14
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'מודיעין',
+        location: { northing: 32.6423202806896, easting: 31.910408693404378 },
+        victimAmount: 2
+    },
+    {
+        title: 'molotov strike on school bus',
         weaponTypes: ['אבנים', 'בקתב', 'סכין', 'נשק חם'],
         eventType: 'אביר לילה א',
         tag: 'תקשוב',
-        location: { northing: 32.18428088789753, easting: 32.08683399259843 },
-        victimAmount: 12
-    },
-    {
-        id: 57,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['סכין', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'מודיעין',
-        location: { northing: 31.296135116172472, easting: 30.176605584484232 },
-        victimAmount: 19
-    },
-    {
-        id: 58,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'מודיעין',
-        location: { northing: 32.22212332501185, easting: 32.938903610207106 },
-        victimAmount: 14
-    },
-    {
-        id: 59,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'בקתב'],
-        eventType: 'פרש תורכי',
-        tag: 'מודיעין',
-        location: { northing: 31.722855715995735, easting: 30.566294346213144 },
-        victimAmount: 19
-    },
-    {
-        id: 60,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['בקתב', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 32.725022687719395, easting: 32.40260782357082 },
-        victimAmount: 10
-    },
-    {
-        id: 61,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'בקתב'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 30.208311596084666, easting: 31.62214719049169 },
+        location: { northing: 31.15007865288682, easting: 30.074199771111736 },
         victimAmount: 1
     },
     {
-        id: 62,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 30.796606919661922, easting: 32.674271695419904 },
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 32.07212684079749, easting: 30.036436951116922 },
         victimAmount: 9
     },
     {
-        id: 63,
         title: 'hit and run in yehuda',
-        weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 31.919868979478395, easting: 30.42761996555046 },
-        victimAmount: 1
-    },
-    {
-        id: 64,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'סכין', 'נשק חם'],
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
         eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 30.204935808328543, easting: 32.289196670300896 },
-        victimAmount: 4
-    },
-    {
-        id: 65,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'בקתב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'אג"מ',
-        location: { northing: 31.65887078517553, easting: 30.034131912306265 },
-        victimAmount: 12
-    },
-    {
-        id: 66,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'אביר לילה ב',
         tag: 'תקשוב',
-        location: { northing: 30.17738143550263, easting: 31.088228594799578 },
-        victimAmount: 4
+        location: { northing: 30.490109648649717, easting: 30.074072561810727 },
+        victimAmount: 9
     },
     {
-        id: 67,
         title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'נשק חם'],
+        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
         eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 31.875234820706027, easting: 32.904800691801384 },
-        victimAmount: 16
+        tag: 'תקשוב',
+        location: { northing: 32.733548675682215, easting: 32.86086627413614 },
+        victimAmount: 9
     },
     {
-        id: 68,
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'תקשוב',
+        location: { northing: 32.58834617594661, easting: 30.057329678561683 },
+        victimAmount: 14
+    },
+    {
         title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
         eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 32.665644624584075, easting: 30.28701437030879 },
+        tag: 'אג"מ',
+        location: { northing: 31.025424794367204, easting: 30.650102845187917 },
         victimAmount: 13
     },
     {
-        id: 69,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 31.421003811108882, easting: 30.58440581573762 },
-        victimAmount: 11
-    },
-    {
-        id: 70,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 32.20784263728178, easting: 31.05585527015318 },
-        victimAmount: 4
-    },
-    {
-        id: 71,
         title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'אג"מ',
-        location: { northing: 32.19335666316888, easting: 31.704822848416075 },
-        victimAmount: 14
-    },
-    {
-        id: 72,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 31.542327106402766, easting: 32.38820182845097 },
-        victimAmount: 11
-    },
-    {
-        id: 73,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 30.119427214502863, easting: 32.280987369373385 },
-        victimAmount: 12
-    },
-    {
-        id: 74,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
+        weaponTypes: ['רכב', 'בקתב', 'סכין'],
         eventType: 'אביר לילה ג',
         tag: 'מודיעין',
-        location: { northing: 30.239097033180556, easting: 30.5110918341277 },
-        victimAmount: 11
+        location: { northing: 32.28699181646187, easting: 30.42541567727895 },
+        victimAmount: 16
     },
     {
-        id: 75,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 30.843599949258774, easting: 32.01532039072069 },
-        victimAmount: 1
-    },
-    {
-        id: 76,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.106855547151866, easting: 30.1053779806668 },
-        victimAmount: 9
-    },
-    {
-        id: 77,
         title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'סכין'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 30.424648601473148, easting: 32.80872909397163 },
-        victimAmount: 14
-    },
-    {
-        id: 78,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'אג"מ',
-        location: { northing: 31.514647709245818, easting: 30.95554510133829 },
-        victimAmount: 12
-    },
-    {
-        id: 79,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'פטיש חם',
-        tag: 'מודיעין',
-        location: { northing: 32.34091091448717, easting: 30.581144030475688 },
-        victimAmount: 3
-    },
-    {
-        id: 80,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['בקתב', 'נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'מודיעין',
-        location: { northing: 32.85894855425964, easting: 31.556003453489577 },
-        victimAmount: 12
-    },
-    {
-        id: 81,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'מודיעין',
-        location: { northing: 30.707233070444335, easting: 30.379842465686174 },
-        victimAmount: 19
-    },
-    {
-        id: 82,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
+        weaponTypes: ['אבנים', 'רכב', 'בקתב'],
         eventType: 'פרש תורכי',
-        tag: 'אג"מ',
-        location: { northing: 31.715223645504903, easting: 31.885919851149133 },
-        victimAmount: 6
-    },
-    {
-        id: 83,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'אג"מ',
-        location: { northing: 32.60923232103219, easting: 30.351648285337802 },
-        victimAmount: 14
-    },
-    {
-        id: 84,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['נשק חם'],
-        eventType: 'ירי תמ"ס',
-        tag: 'מודיעין',
-        location: { northing: 32.75288901938347, easting: 32.129930671216954 },
-        victimAmount: 0
-    },
-    {
-        id: 85,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['בקתב', 'נשק חם'],
-        eventType: 'אביר לילה ג',
-        tag: 'אג"מ',
-        location: { northing: 30.467862248866126, easting: 30.05937485123675 },
-        victimAmount: 9
-    },
-    {
-        id: 86,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'בקתב', 'סכין'],
-        eventType: 'אביר לילה א',
         tag: 'תקשוב',
-        location: { northing: 32.47761988172081, easting: 31.281594993175162 },
-        victimAmount: 18
-    },
-    {
-        id: 87,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'בקתב'],
-        eventType: 'ירי תמ"ס',
-        tag: 'תקשוב',
-        location: { northing: 31.65967073929076, easting: 30.39280501738852 },
-        victimAmount: 15
-    },
-    {
-        id: 88,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
-        eventType: 'פרש תורכי',
-        tag: 'אג"מ',
-        location: { northing: 32.90415462447278, easting: 30.039961590641774 },
-        victimAmount: 14
-    },
-    {
-        id: 89,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['אבנים', 'רכב', 'סכין'],
-        eventType: 'פטיש חם',
-        tag: 'מודיעין',
-        location: { northing: 32.77264546595282, easting: 31.705931472079698 },
-        victimAmount: 5
-    },
-    {
-        id: 90,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב'],
-        eventType: 'ירי תמ"ס',
-        tag: 'אג"מ',
-        location: { northing: 30.898572762941033, easting: 32.66849777306921 },
-        victimAmount: 11
-    },
-    {
-        id: 91,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'תקשוב',
-        location: { northing: 30.546283294634, easting: 32.92979815447808 },
+        location: { northing: 32.603601803202736, easting: 31.183127770863614 },
         victimAmount: 7
     },
     {
-        id: 92,
         title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'נשק חם'],
-        eventType: 'ירי תמ"ס',
+        weaponTypes: ['אבנים', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ב',
         tag: 'אג"מ',
-        location: { northing: 31.017118575965124, easting: 32.4229476199018 },
-        victimAmount: 6
-    },
-    {
-        id: 93,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['רכב', 'סכין'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 30.44662583105982, easting: 32.59441105059946 },
-        victimAmount: 18
-    },
-    {
-        id: 94,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 32.36895990144853, easting: 31.24598875496422 },
-        victimAmount: 6
-    },
-    {
-        id: 95,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'בקתב', 'נשק חם'],
-        eventType: 'אביר לילה א',
-        tag: 'מודיעין',
-        location: { northing: 31.461377806561515, easting: 30.749834016698962 },
-        victimAmount: 10
-    },
-    {
-        id: 96,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['נשק חם'],
-        eventType: 'פטיש חם',
-        tag: 'אג"מ',
-        location: { northing: 32.03803379225751, easting: 30.667184730888422 },
-        victimAmount: 9
-    },
-    {
-        id: 97,
-        title: 'stabbing terror attack in apple cross',
-        weaponTypes: ['סכין', 'נשק חם'],
-        eventType: 'אביר לילה ג',
-        tag: 'מודיעין',
-        location: { northing: 31.026869244547452, easting: 30.464123765406296 },
-        victimAmount: 10
-    },
-    {
-        id: 98,
-        title: 'hit and run in yehuda',
-        weaponTypes: ['בקתב', 'סכין'],
-        eventType: 'אביר לילה ב',
-        tag: 'תקשוב',
-        location: { northing: 31.739148963050052, easting: 31.78037444091871 },
-        victimAmount: 11
-    },
-    {
-        id: 99,
-        title: 'molotov strike on school bus',
-        weaponTypes: ['רכב', 'סכין', 'נשק חם'],
-        eventType: 'אביר לילה ג',
-        tag: 'תקשוב',
-        location: { northing: 31.604692359363384, easting: 30.460416827782396 },
+        location: { northing: 31.816184215654783, easting: 30.26065515216873 },
         victimAmount: 5
     },
     {
-        id: 100,
+        title: 'hit and run in yehuda',
+        weaponTypes: ['רכב', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 31.583020904290276, easting: 31.365135859728884 },
+        victimAmount: 6
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין'],
+        eventType: 'פרש תורכי',
+        tag: 'תקשוב',
+        location: { northing: 31.730122903190715, easting: 31.094350271821913 },
+        victimAmount: 11
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין'],
+        eventType: 'פטיש חם',
+        tag: 'תקשוב',
+        location: { northing: 32.795528522157284, easting: 32.765855911133826 },
+        victimAmount: 14
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 31.93548522597972, easting: 30.701812506219913 },
+        victimAmount: 7
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'בקתב', 'סכין'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 30.31772358807726, easting: 30.562891504206426 },
+        victimAmount: 5
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 30.022403872034072, easting: 30.737963489185287 },
+        victimAmount: 12
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'בקתב', 'סכין'],
+        eventType: 'פטיש חם',
+        tag: 'אג"מ',
+        location: { northing: 30.726819766103077, easting: 31.90769357938853 },
+        victimAmount: 12
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 32.47513083553866, easting: 32.93858314362132 },
+        victimAmount: 7
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 32.55492674852165, easting: 30.394256788153363 },
+        victimAmount: 9
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב'],
+        eventType: 'ירי תמ"ס',
+        tag: 'אג"מ',
+        location: { northing: 30.83976442325529, easting: 31.785837263439927 },
+        victimAmount: 10
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'מודיעין',
+        location: { northing: 31.06369596355724, easting: 31.330636134506626 },
+        victimAmount: 17
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה א',
+        tag: 'תקשוב',
+        location: { northing: 31.99976284415957, easting: 32.204574465500286 },
+        victimAmount: 15
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'בקתב', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'אג"מ',
+        location: { northing: 32.247324423479526, easting: 30.084781981065724 },
+        victimAmount: 11
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'אג"מ',
+        location: { northing: 32.51210199499573, easting: 32.72587398551026 },
+        victimAmount: 0
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['סכין'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 32.43186163973985, easting: 30.75920346599638 },
+        victimAmount: 15
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 31.291845008795768, easting: 30.73284665114802 },
+        victimAmount: 18
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 31.566040986643433, easting: 32.23026990823228 },
+        victimAmount: 16
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['רכב', 'בקתב', 'סכין'],
+        eventType: 'פרש תורכי',
+        tag: 'תקשוב',
+        location: { northing: 32.466855990069035, easting: 31.63020856558061 },
+        victimAmount: 5
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['רכב', 'סכין'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 30.6270528333239, easting: 30.276582414725436 },
+        victimAmount: 9
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'נשק חם'],
+        eventType: 'אביר לילה א',
+        tag: 'מודיעין',
+        location: { northing: 31.852005084409665, easting: 31.09910763510214 },
+        victimAmount: 16
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 32.46202373172525, easting: 31.4868184956226 },
+        victimAmount: 4
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'תקשוב',
+        location: { northing: 30.22690099147253, easting: 30.69201692723421 },
+        victimAmount: 19
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'סכין'],
+        eventType: 'אביר לילה א',
+        tag: 'אג"מ',
+        location: { northing: 32.48553359789813, easting: 31.8893345857934 },
+        victimAmount: 3
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 31.219929520944408, easting: 32.2055251992908 },
+        victimAmount: 3
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין'],
+        eventType: 'אביר לילה ב',
+        tag: 'תקשוב',
+        location: { northing: 30.118454357024888, easting: 31.245543323320426 },
+        victimAmount: 14
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'תקשוב',
+        location: { northing: 32.57152106944107, easting: 32.6820319353952 },
+        victimAmount: 9
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'בקתב'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 31.151598829952363, easting: 30.738565626828578 },
+        victimAmount: 15
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 32.399955015588354, easting: 31.08119591868712 },
+        victimAmount: 14
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 30.06622818489111, easting: 32.65075765367338 },
+        victimAmount: 3
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'סכין'],
+        eventType: 'פרש תורכי',
+        tag: 'אג"מ',
+        location: { northing: 30.834808404627424, easting: 32.3172435441547 },
+        victimAmount: 4
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 32.257216400533196, easting: 32.72609233683383 },
+        victimAmount: 5
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['רכב', 'בקתב', 'סכין'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 31.601948189989752, easting: 30.137182525336648 },
+        victimAmount: 16
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'מודיעין',
+        location: { northing: 30.963008086815258, easting: 32.90992185291502 },
+        victimAmount: 11
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'מודיעין',
+        location: { northing: 30.328665795958486, easting: 31.61168107439435 },
+        victimAmount: 18
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'מודיעין',
+        location: { northing: 32.095584783322614, easting: 30.109852592151356 },
+        victimAmount: 13
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'סכין'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 32.615048015766, easting: 31.668428149184216 },
+        victimAmount: 2
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        eventType: 'אביר לילה ב',
+        tag: 'אג"מ',
+        location: { northing: 30.016263714494553, easting: 31.438529227583846 },
+        victimAmount: 1
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין'],
+        eventType: 'ירי תמ"ס',
+        tag: 'אג"מ',
+        location: { northing: 30.164942541800436, easting: 32.23117930298214 },
+        victimAmount: 9
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'אביר לילה א',
+        tag: 'אג"מ',
+        location: { northing: 32.99536000101977, easting: 30.219558778121538 },
+        victimAmount: 3
+    },
+    {
         title: 'hit and run in yehuda',
         weaponTypes: ['רכב', 'נשק חם'],
         eventType: 'אביר לילה א',
+        tag: 'מודיעין',
+        location: { northing: 31.148844267071905, easting: 31.210880194643444 },
+        victimAmount: 5
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'תקשוב',
+        location: { northing: 32.54529034820247, easting: 32.828091433509 },
+        victimAmount: 14
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['בקתב', 'נשק חם'],
+        eventType: 'ירי תמ"ס',
+        tag: 'תקשוב',
+        location: { northing: 32.08942900296787, easting: 32.91934918493949 },
+        victimAmount: 4
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 31.81097887388209, easting: 31.391105279159127 },
+        victimAmount: 9
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'פרש תורכי',
+        tag: 'תקשוב',
+        location: { northing: 30.507897241942484, easting: 31.710382591499805 },
+        victimAmount: 12
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'נשק חם'],
+        eventType: 'פטיש חם',
+        tag: 'תקשוב',
+        location: { northing: 31.260598063526555, easting: 30.59686361152401 },
+        victimAmount: 18
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ג',
+        tag: 'מודיעין',
+        location: { northing: 32.61073368996565, easting: 30.651285944541726 },
+        victimAmount: 3
+    },
+    {
+        title: 'hit and run in yehuda',
+        weaponTypes: ['אבנים', 'רכב', 'סכין'],
+        eventType: 'אביר לילה ג',
+        tag: 'תקשוב',
+        location: { northing: 31.95383572350287, easting: 31.462780617960483 },
+        victimAmount: 14
+    },
+    {
+        title: 'stabbing terror attack in apple cross',
+        weaponTypes: ['בקתב', 'סכין', 'נשק חם'],
+        eventType: 'אביר לילה ב',
+        tag: 'מודיעין',
+        location: { northing: 30.941762457641982, easting: 31.580898317331876 },
+        victimAmount: 7
+    },
+    {
+        title: 'molotov strike on school bus',
+        weaponTypes: ['אבנים', 'רכב'],
+        eventType: 'פרש תורכי',
         tag: 'אג"מ',
-        location: { northing: 31.86899038247292, easting: 32.07909759407783 },
-        victimAmount: 10
+        location: { northing: 31.97138487965221, easting: 32.170924236901314 },
+        victimAmount: 18
     }
-];
+]
