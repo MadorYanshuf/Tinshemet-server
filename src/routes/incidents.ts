@@ -14,7 +14,6 @@ incidentsRouter.get('/', async (req: Request, res: Response) => {
         res.status(400).send('Bad Request');
     }
 });
-
 incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
     const id: string = req.params.id;
 
