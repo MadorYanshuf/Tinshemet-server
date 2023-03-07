@@ -1,35 +1,59 @@
 import express, { Request, Response, Router } from 'express';
-import { addIncident, deleteIncident } from '../dal/incidentDal';
-import { getAllIncidents } from '../dal/incidentDal';
+import { getAllIncidents, deleteIncident, addIncident } from '../dal/incidentDal';
 import { Incident } from '../dal/incidentDal';
 
-export const incidentsRouter: Router = express.Router();
+const logData = (funcName: any, data: Object = "None") => {
+    console.log("--------------------");
+    console.log("[Function logged]:", funcName);
+    console.log("[Data inserted]:", data);
+    console.log("--------------------");
+}
 
-incidentsRouter.get('/', async (req: Request, res: Response) => {
-    try {
-        const allIncidents = await getAllIncidents();
-        res.send(allIncidents);
-    } catch (error) {
-        console.log(error);
-        res.status(400).send('Bad Request');
-    }
-});
-incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
-    const id: string = req.params.id;
-    try {
-        await deleteIncident(id);
-        res.status(200).send('Incident successfuly deleted');
-    } catch (err) {
-        res.status(404).send('Incident not found');
-    }
-});
+class inc {
+    incidentsRouter: Router = express.Router();
 
-incidentsRouter.post('/add', async (req: Request, res: Response) => {
-    const incident: Incident = req.body;
-    try {
-        await addIncident(incident);
-        res.status(200).send('Incident successfuly added');
-    } catch (err) {
-        res.status(404).send('Incident not found');
-    }
-});
+    createRouter() {
+        this.incidentsRouter.get('/', this.getall.bind(this.getall.name));
+        this.incidentsRouter.delete('/delete/:id', this.deleteIncident.bind(this.deleteIncident.name));
+        this.incidentsRouter.post('/add', this.postIncident.bind(this.postIncident.name));
+
+        return this.incidentsRouter;
+    };
+
+    private async getall(req: Request, res: Response) {
+        try {
+            logData(this);
+            const allIncidents = await getAllIncidents();
+            res.send(allIncidents);
+        } catch (error) {
+            console.log(error);
+            res.status(400).send('Bad Request');
+        }
+    };
+
+    private async deleteIncident(req: Request, res: Response) {
+        logData(this, req.params);
+        const id: string = req.params.id;
+
+        try {
+            await deleteIncident(id);
+            res.status(200).send('Incident successfuly deleted');
+        } catch (err) {
+            res.status(404).send('Incident not found');
+        }
+    };
+
+    private async postIncident(req: Request, res: Response) {
+        logData(this, req.body);
+        const incident: Incident = req.body;
+
+        try {
+            await addIncident(incident);
+            res.status(200).send('Incident successfuly added');
+        } catch (err) {
+            res.status(404).send('Incident not found');
+        }
+    };
+}
+
+export const createRouter = new inc().createRouter();
