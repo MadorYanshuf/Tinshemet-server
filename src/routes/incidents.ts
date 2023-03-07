@@ -1,8 +1,9 @@
 import express, { Request, Response, Router } from 'express';
-import { deleteIncident } from '../dal/incidentDal';
+import { addIncident, deleteIncident } from '../dal/incidentDal';
 import { getAllIncidents } from '../dal/incidentDal';
 import { addIncident } from '../dal/incidentDal';
 import { Incident } from '../dal/incidentDal';
+
 export const incidentsRouter: Router = express.Router();
 
 incidentsRouter.get('/', async (req: Request, res: Response) => {
@@ -17,7 +18,6 @@ incidentsRouter.get('/', async (req: Request, res: Response) => {
 
 incidentsRouter.delete('/delete/:id', async (req: Request, res: Response) => {
     const id: string = req.params.id;
-
     try {
         await deleteIncident(id);
         res.status(200).send('Incident successfuly deleted');
