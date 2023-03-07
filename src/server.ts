@@ -1,7 +1,7 @@
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import express, { Express, Request, Response } from 'express';
-import { createRouter, deleteRouter } from './routes/incidents';
+import { createRouter } from './routes/incidents';
 
 export const app: Express = express();
 
@@ -14,7 +14,6 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.use('/incidents', createRouter);
-app.use('/incidents', deleteRouter);
 
 app.listen(app.get('PORT'), () => {
   console.log(
