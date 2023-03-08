@@ -14,7 +14,11 @@ class inc {
   userRouter: Router = express.Router();
 
   createRouter() {
-    this.userRouter.post("/login", this.checkUser.bind(this.checkUser.name));
+    this.userRouter.post("/validate", this.checkUser.bind(this.checkUser.name));
+    this.userRouter.post(
+      "/generate",
+      this.generateToken.bind(this.generateToken.name)
+    );
 
     return this.userRouter;
   }
@@ -27,17 +31,24 @@ class inc {
       const optionalUser = await getUser(user);
 
       if (!optionalUser) {
-        return res.status(403).json({ error: "Invalid login credentials" });
+        return res.status(403).send("Invalid login credentials");
       }
 
-      delete optionalUser.password;
       const token = jwt.sign(user, process.env.MY_SECRET, { expiresIn: "1h" });
-      res.cookie("token", token);
 
-      return res.redirect("/");
+      return res.json({ token }).status(200).send("Login successed");
     } catch (err) {
       res.status(400).send("There was an error while getting user");
     }
+  }
+
+  private async generateToken(req: Request, res: Response) {
+    logData(this, req.body);
+    const token = jwt.sign(req.body, process.env.MY_SECRET, {
+      expiresIn: "1h",
+    });
+
+    return res.json({ token });
   }
 }
 
