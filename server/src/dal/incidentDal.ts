@@ -1,5 +1,3 @@
-import { Db } from "mongodb";
-import mongoose, { Schema } from "mongoose";
 import { incidents } from "../model/incident";
 const db = require("../services/dbService");
 
