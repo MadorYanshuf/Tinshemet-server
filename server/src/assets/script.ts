@@ -6,8 +6,8 @@ const eventTypes = ['פטיש חם', 'פרש תורכי', 'אביר לילה א'
 const tags = ['אג"מ', 'מודיעין', 'תקשוב'] as const;
 
 const MAX_VICTIMS_AMOUNT = 20;
-const AYOSH_MAX_COORDS_NORTHING = 32.4;
-const AYOSH_MIN_COORDS_NORTHING = 31.8;
+const AYOSH_MAX_COORDS_NORTHING = 32.5;
+const AYOSH_MIN_COORDS_NORTHING = 32;
 const AYOSH_MAX_COORDS_EASTING = 35.4;
 const AYOSH_MIN_COORDS_EASTING = 35;
 const INCIDENTS_AMOUNT = 15;
