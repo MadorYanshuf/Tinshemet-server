@@ -8,6 +8,8 @@ import { connectToMongo } from './services/dbService';
 export const app: Express = express();
 
 app.use(cors());
+
+
 app.use(bodyParser.json());
 app.set('PORT', process.env.PORT || 8000);
 
