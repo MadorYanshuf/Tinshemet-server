@@ -29,8 +29,8 @@ jobs:
                   docker build . -t tinshemet-back:latest
                   docker login -u tinshemetregistry -p liorlior12345 
                   docker image ls
-                  docker tag tinshemet-back:latest tinshemetRegistry/tinshemet-back:latest
-                  docker push tinshemetRegistry/tinshemet-back:latest
+                  docker tag tinshemet-back:latest tinshemetregistry/tinshemet-back:latest
+                  docker push tinshemetregistry/tinshemet-back:latest
                   #sudo mkdir -p /root/.kube/
                   #sudo mv ./kubeconfig /root/.kube/config
                   #sudo kubectl apply -f deployment.yml
