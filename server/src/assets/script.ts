@@ -10,7 +10,7 @@ const AYOSH_MAX_COORDS_NORTHING = 32.4;
 const AYOSH_MIN_COORDS_NORTHING = 31.8;
 const AYOSH_MAX_COORDS_EASTING = 35.4;
 const AYOSH_MIN_COORDS_EASTING = 35;
-const INCIDENTS_AMOUNT = 50;
+const INCIDENTS_AMOUNT = 15;
 const getRandomVictimAmount = () => Math.floor(Math.random() * MAX_VICTIMS_AMOUNT);
 
 const getRandomLocation = () => ({
