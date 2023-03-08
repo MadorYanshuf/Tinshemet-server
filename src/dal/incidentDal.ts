@@ -1,15 +1,26 @@
-/*
-** Here you will write the dal for the incidents!
-*/
+import { incidents } from "../model/incident";
+const db = require("../services/dbService");
 
-interface Incident {
-    //The incident type
+export interface Incident {
+    id?: number;
+    title: string;
+    time?: Date;
+    weaponTypes: string[];
+    eventType: string;
+    tag: string;
+    description?: string;
+    location: Location;
+    area?: string;
+    victimAmount?: number;
 }
 
-export const getAllIncidents = () => {}
+export interface Location {
+    northing: number;
+    easting: number;
+}
 
-export const getAllNewIncidents = () => {}
+export const getAllIncidents = async () => incidents.find();
 
-export const markAllIncidentsAsRead = () => {}
+export const addIncident = (incident: Incident) => incidents.collection.insertOne(incident);
 
-export const addIncident = (incident: Incident) => {}
+export const deleteIncident = async (incidentId: string) => await incidents.deleteOne({ _id: incidentId });
