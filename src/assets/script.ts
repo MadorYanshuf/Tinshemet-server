@@ -1,9 +1,11 @@
 import { Incident } from '../dal/incidentDal';
 
-const titles = ['stabbing terror attack in apple cross', 'hit and run in yehuda', 'molotov strike on school bus'] as const;
+const titles = ['פיגוע דקירה בצומת תפוח', 'פגע וברח באזור יהודה', 'זריקת בקבוק תבערה על אוטובוס תיירים'] as const;
 const weaponTypes = ['אבנים', 'רכב', 'בקתב', 'סכין', 'נשק חם'] as const;
 const eventTypes = ['פטיש חם', 'פרש תורכי', 'אביר לילה א', 'אביר לילה ב', 'אביר לילה ג', 'ירי תמ"ס'] as const;
 const tags = ['אג"מ', 'מודיעין', 'תקשוב'] as const;
+const times = ['10:48', '10:57', '11:37', '12:10', '14:14', '12:45', '9:33', '5:32', '6:48',
+ '14:59', '8:13', '15:27', '10:02', '8:01', '9:04','6:12', '7:14', '7:36', '7:21'] as const;
 
 const MAX_VICTIMS_AMOUNT = 20;
 const AYOSH_MAX_COORDS_NORTHING = 32.5;
@@ -41,6 +43,7 @@ const generateIncident = () => {
         title: titles[getRandomIndex(titles.length)],
         weaponTypes: getRandomWeaponTypes(),
         eventType: eventTypes[getRandomIndex(eventTypes.length)],
+        time: times[getRandomIndex(times.length)],
         tag: tags[getRandomIndex(tags.length)],
         location: getRandomLocation(),
         victimAmount: getRandomVictimAmount()
