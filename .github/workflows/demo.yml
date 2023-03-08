@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    test-application:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v2
+
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 16
+            
+            - uses: docker-practice/actions-setup-docker@master 
+            
+            - uses: azure/setup-kubectl@v3
+            
+            - name: Run Add Test
+              working-directory: ./
+              run: |
+                  sudo rm -rf node_modules
+                  npm install
+                  pwd
+                  ls
+                  docker build . -t tinshemetRegistry/serverIm:latest
+                  docker login -u tinshemetRegistry -p liorlior12345 
+                  docker image ls
+                  docker push tinshemetRegistry/serverIm:latest
+                  #sudo mkdir -p /root/.kube/
+                  #sudo mv ./kubeconfig /root/.kube/config
+                  #sudo kubectl apply -f deployment.yml
