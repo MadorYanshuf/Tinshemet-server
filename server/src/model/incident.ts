@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const incident = new mongoose.Schema({
   id: Number,
   title: String,
-  time: Date,
+  time: String,
   weaponTypes: Array<string>,
   eventType: String,
   tag: String,
