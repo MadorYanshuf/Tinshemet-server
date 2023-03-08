@@ -7,14 +7,14 @@ class incident {
     incidentsRouter: Router = express.Router();
 
     createRouter() {
-        this.incidentsRouter.get('/', this.getall.bind(this.getall.name));
+        this.incidentsRouter.get('/', this.allIncidents.bind(this.allIncidents.name));
         this.incidentsRouter.delete('/delete/:id', this.deleteIncident.bind(this.deleteIncident.name));
         this.incidentsRouter.post('/add', this.postIncident.bind(this.postIncident.name));
 
         return this.incidentsRouter;
     };
 
-    private async getall(req: Request, res: Response) {
+    private async allIncidents(req: Request, res: Response) {
         try {
             logData(this);
             const allIncidents = await getAllIncidents();
@@ -50,4 +50,4 @@ class incident {
     };
 }
 
-export const createRouter = new incident().createRouter();
+export const incidentsRouter = new incident().createRouter();
