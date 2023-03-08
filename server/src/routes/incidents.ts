@@ -1,15 +1,9 @@
 import express, { Request, Response, Router } from 'express';
 import { getAllIncidents, deleteIncident, addIncident } from '../dal/incidentDal';
 import { Incident } from '../dal/incidentDal';
+import { logData } from '../assets/Logger'
 
-const logData = (funcName: any, data: Object = "None") => {
-    console.log("--------------------");
-    console.log("[Function logged]:", funcName);
-    console.log("[Data inserted]:", data);
-    console.log("--------------------");
-}
-
-class inc {
+class incident {
     incidentsRouter: Router = express.Router();
 
     createRouter() {
@@ -56,4 +50,4 @@ class inc {
     };
 }
 
-export const createRouter = new inc().createRouter();
+export const createRouter = new incident().createRouter();
