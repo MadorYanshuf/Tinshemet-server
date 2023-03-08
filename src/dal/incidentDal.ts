@@ -4,7 +4,7 @@ const db = require("../services/dbService");
 export interface Incident {
     id?: number;
     title: string;
-    time?: Date;
+    time?: string;
     weaponTypes?: string[];
     eventType: string;
     tag: string;
