@@ -4,7 +4,7 @@ import express, { Express, Request, Response } from 'express';
 import { incidentsRouter } from './routes/incidents';
 import { sensorsRouter } from './routes/sensors';
 import { connectToMongo } from './services/dbService';
-
+ 
 export const app: Express = express();
 
 app.use(cors());
