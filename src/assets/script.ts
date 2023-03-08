@@ -6,14 +6,16 @@ const eventTypes = ['פטיש חם', 'פרש תורכי', 'אביר לילה א'
 const tags = ['אג"מ', 'מודיעין', 'תקשוב'] as const;
 
 const MAX_VICTIMS_AMOUNT = 20;
-const AYOSH_MAX_COORDS = 32;
-const AYOSH_MIN_COORDS = 30;
-const INCIDENTS_AMOUNT = 100;
+const AYOSH_MAX_COORDS_NORTHING = 32.4;
+const AYOSH_MIN_COORDS_NORTHING = 31.8;
+const AYOSH_MAX_COORDS_EASTING = 35.4;
+const AYOSH_MIN_COORDS_EASTING = 35;
+const INCIDENTS_AMOUNT = 50;
 const getRandomVictimAmount = () => Math.floor(Math.random() * MAX_VICTIMS_AMOUNT);
 
 const getRandomLocation = () => ({
-    northing: (Math.random() * (AYOSH_MAX_COORDS - AYOSH_MIN_COORDS + 1) + AYOSH_MIN_COORDS),
-    easting: (Math.random() * (AYOSH_MAX_COORDS - AYOSH_MIN_COORDS + 1) + AYOSH_MIN_COORDS)
+    northing: (Math.random() * (AYOSH_MAX_COORDS_NORTHING - AYOSH_MIN_COORDS_NORTHING) + AYOSH_MIN_COORDS_NORTHING),
+    easting: (Math.random() * (AYOSH_MAX_COORDS_EASTING - AYOSH_MIN_COORDS_EASTING) + AYOSH_MIN_COORDS_EASTING)
 });
 
 const getRandomIndex = (arraySize: number) => Math.floor(Math.random() * arraySize);
