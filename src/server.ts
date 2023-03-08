@@ -1,4 +1,5 @@
 import bodyParser from 'body-parser';
+const cookieParser = require("cookie-parser");
 import cors from 'cors';
 import express, { Express, Request, Response } from 'express';
 import { createRouter } from './routes/incidents';
@@ -8,6 +9,7 @@ export const app: Express = express();
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(cookieParser());
 app.set('PORT', process.env.PORT || 8000);
 
 app.get('/', (req: Request, res: Response) => {
